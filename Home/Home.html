@@ -1,0 +1,234 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reebok Navbar Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Home.css" />
+  </head>
+  <div>
+    <div class="top-bar">
+      FREE DELIVERY OVER 50£ & EXTENDED RETURNS FOR HOLIDAY SEASON
+    </div>
+    <nav class="navbar">
+      <div class="nav-left">
+        <img src="../Logo.png" alt="Reebok Logo" class="logo" />
+        <ul class="nav-links">
+          <li><a href="#">WOMEN</a></li>
+          <li><a href="#">MEN</a></li>
+          <li><a href="#">KIDS</a></li>
+          <li><a href="#">CLASSICS</a></li>
+          <li><a href="#">SPORTS</a></li>
+          <li><a href="#">REEBOK LTD</a></li>
+          <li><a href="#">STORIES</a></li>
+        </ul>
+      </div>
+      <div class="icons">
+        <span>GB / £ EN</span>
+        <i class="fas fa-search"></i>
+        <i class="fas fa-user" id="login"></i>
+        <i class="fas fa-heart"></i>
+        <div class="cart">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-badge">1</span>
+        </div>
+      </div>
+    </nav>
+    <div class="promo-bar">
+      GET 20% OFF <a href="#">JOIN THE REEBOK CLUB</a>
+    </div>
+    <div class="navbar-img">
+      <img src="../image1.png" alt="" style="width: 100%; display: block" />
+    </div>
+
+    <h2 style="padding: 20px">CLUB C</h2>
+    <div class="slider-container">
+      <div class="slider-controls">
+        <button onclick="scrollLeft()">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button onclick="scrollRight()">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <div class="slider" id="productSlider">
+        <div class="product-card">
+          <img
+            src="https://assets.ajio.com/medias/sys_master/root/20230706/Xunq/64a6f158eebac147fc5a6458/-473Wx593H-469451974-navy-MODEL.jpg"
+            alt="Shoe 1"
+          />
+          <div class="price">£100</div>
+          <h3>Club C 85 Vintage Shoes</h3>
+          <p>Unisex Lifestyle Shoes</p>
+          <p>Multiple Colours Available</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1580977251970-221b2fa3f554?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Shoe 2"
+          />
+          <div class="price">£110</div>
+          <h3>Club C 85 Vintage Shoes</h3>
+          <p>Unisex Lifestyle Shoes</p>
+          <p>Multiple Colours Available</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1580977252013-f5d20c3303ae?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Shoe 3"
+          />
+          <div class="price">£80</div>
+          <h3>Club C 85 Shoes</h3>
+          <p>Men's Lifestyle Shoes</p>
+          <p>Multiple Colours Available</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1557599403-563a6117f8dd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Shoe 4"
+          />
+          <div class="price">£80</div>
+          <h3>Club C 85 Shoes</h3>
+          <p>Women's Lifestyle Shoes</p>
+          <p>Multiple Colours Available</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="category">
+          <img
+            src="https://www.reebok.eu/BWStaticContent/153000/f930126e-3bd6-46ee-959e-f462a5c0e7c5_desk-women.jpg"
+            alt="Women"
+          />
+          <div class="category-text">WOMEN</div>
+        </div>
+        <div class="category">
+          <img
+            src="https://www.reebok.eu/BWStaticContent/153000/236fb8a3-56bd-49dc-b4c5-67a7042c6123_desk-men.jpg"
+            alt="Men"
+          />
+          <div class="category-text">MEN</div>
+        </div>
+        <div class="category">
+          <img
+            src="https://www.reebok.eu/BWStaticContent/153000/60db2879-a33e-4b44-86dc-5de2972a0f12_category-desk.jpg"
+            alt="Kids"
+          />
+          <div class="category-text">KIDS</div>
+        </div>
+      </div>
+    </div>
+    <h2>FEATURING THE BEST</h2>
+
+    <div class="featured-grid">
+      <div class="product">
+        <div class="image-container">
+          <img src="../image2.png" alt="Product 1" />
+        </div>
+        <div class="product-info">
+          <h2>Ultimate training essentials</h2>
+          <p>
+            Start strong and train smart this year with Reebok’s performance
+            gear.
+          </p>
+          <a href="#">Shop now</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="image-container">
+          <img src="../image3.png" alt="Product 2" />
+        </div>
+        <div class="product-info">
+          <h2>Train hard, look sharp</h2>
+          <p>Performance-driven and style-approved workouts just hit better.</p>
+          <a href="#">Shop now</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="image-container">
+          <img src="../image4.png" alt="Product 3" />
+        </div>
+        <div class="product-info">
+          <h2>Y2K glory</h2>
+          <p>Retro running style meets the 2000s techy aesthetic.</p>
+          <a href="#">Shop now</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="image-container">
+          <img src="../image5.png" alt="Product 4" />
+        </div>
+        <div class="product-info">
+          <h2>Reebok Classics</h2>
+          <p>
+            Upgrade your everyday with Reebok’s latest drop of elevated basics.
+          </p>
+          <a href="#">Shop now</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-container">
+      <img
+        src="https://www.reebok.eu/BWStaticContent/153000/2b952e46-8a25-408b-91e2-2e99a9d4f719_desk-soccer.jpg"
+        alt="Sample Image"
+      />
+      <div class="text-overlay">
+        <h1>Soccer Meets Fashion</h1>
+        <p>
+          From the stands to streets, these retro soccer-inspired kicks are
+          having a moment. Bold colors, vintage styling, and premium materials
+          mean they’re game anywhere you go.
+        </p>
+      </div>
+    </div>
+
+    <div class="image-container">
+        <img src="../img6.png" alt="image">
+    </div>
+  </div> 
+
+
+
+  <div class="top-banner">
+        JOIN THE REEBOK CLUB + GET 20% OFF
+        <br>
+        <button class="join-btn">JOIN THE CLUB</button>
+    </div>
+    <div class="footer">
+        <div>
+            <h3>SUPPORT</h3>
+            <a href="#">Help</a>
+            <a href="#">Track your order</a>
+            <a href="#">Return your order</a>
+        </div>
+        <div>
+            <h3>LEGAL</h3>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Cookie Preferences</a>
+        </div>
+        <div>
+            <h3>COUNTRY/CURRENCY</h3>
+            United Kingdom / £ <a href="#">Change</a>
+        </div>
+        <div>
+            <h3>PAYMENT METHODS</h3>
+            <span>💳 💳 💳 VISA</span>
+            <br>
+            <span>📱 Pay 💳 PayPal Klarna</span>
+        </div>
+    </div>
+    <div class="bottom-bar">
+        Reebok™ is a trademark of Reebok International Limited. &copy;2023 Reebok International Limited. All Rights Reserved.
+    </div>
+
+  </body>
+
+  <script src="Home.js"></script>
+</html>
